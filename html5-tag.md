@@ -134,32 +134,32 @@ datetime 속성
 `<ruby>` 태그를 지원하지 않는 브라우저에서는 韓國(한국)으로 표시되고, 그 외 브라우저는 '한국' 글자가 위에 표시될 것이다.
 
 ## 기타 관련 태그
-`<kbd>` : 키보드 입력이나 음성 명령같이 사용자 입력 내용을 표시<br>
-`<code>` : 파일 이름이나 프로그램 코드<br>
-`<samp>` : 프로그램 처리 결과<br>
-`<sup>` : 수학 식의 위 첨자<br>
-`<sub>` : 수학 식의 아래 첨자<br>
-`<ins>` : 추가된 내용<br>
-`<cite>` : 작품 제목<br>
-`<del>` : 삭제된 내용<br>
-`<abbr>` : 약자 표기 (HTML : 에이치.티.엠.엘)<br>
+`<kbd>` : 키보드 입력이나 음성 명령같이 사용자 입력 내용을 표시  
+`<code>` : 파일 이름이나 프로그램 코드  
+`<samp>` : 프로그램 처리 결과  
+`<sup>` : 수학 식의 위 첨자  
+`<sub>` : 수학 식의 아래 첨자  
+`<ins>` : 추가된 내용  
+`<cite>` : 작품 제목  
+`<del>` : 삭제된 내용  
+`<abbr>` : 약자 표기 (HTML : 에이치.티.엠.엘)  
 
 ## 기타 사용을 지양할 태그
-표현을 기준으로 이름 지어진 태그<br>
-`<b>` : 굵은 글씨<br>
-`<i>` : 이탤릭체<br>
-`<big>` : 큰 글씨<br>
-`<small>` : 작은 글씨<br>
-`<blink>` : 깜빡임<br>
-`<s>` : 가로줄<br>
-`<tt>` : 타이프체<br>
-`<u>` : 밑줄<br>
-`<center>` : 중앙 정렬<br>
-`<nobr>` : 줄바꿈 안함<br>
-`<font>` : 글씨 모양<br>
-`<marquee>` : 흐르는 글씨<br>
-`<basefont>` : 기본 텍스트 색상, 글꼴 크기 지정<br>
-`<acronym>` : 두 문자어<br>
+표현을 기준으로 이름 지어진 태그  
+`<b>` : 굵은 글씨  
+`<i>` : 이탤릭체  
+`<big>` : 큰 글씨  
+`<small>` : 작은 글씨  
+`<blink>` : 깜빡임  
+`<s>` : 가로줄  
+`<tt>` : 타이프체  
+`<u>` : 밑줄  
+`<center>` : 중앙 정렬  
+`<nobr>` : 줄바꿈 안함  
+`<font>` : 글씨 모양  
+`<marquee>` : 흐르는 글씨  
+`<basefont>` : 기본 텍스트 색상, 글꼴 크기 지정  
+`<acronym>` : 두 문자어  
 
 # 목록을 만드는 태그
 이미지나 텍스트를 목록화 하여 정리한다. CSS를 적용해 메뉴나 본문 내용을 만든다.
@@ -373,12 +373,12 @@ table + 머리글(head), 본문(body), 요약(foot)이 합쳐진 태그이다. �
 <a href="#here">이동</a>
 ...
 ```
-위와 같이 id값을 경로를 설정한 경우 클릭하면 해당 id의 태그 위치로 스크롤을 이동한다.<br>
+위와 같이 id값을 경로를 설정한 경우 클릭하면 해당 id의 태그 위치로 스크롤을 이동한다.  
 <a href="#block태그">block태그 설명으로 이동</a>
 
 ### 툴팁
 `<a href="#" title="설명">...</a>`
-위와 같이 title 속성을 사용하면 링크에 마우스를 올려두면 나오는 툴팁을 작성할 수 있다.<br>
+위와 같이 title 속성을 사용하면 링크에 마우스를 올려두면 나오는 툴팁을 작성할 수 있다.  
 <a href="#" title="설명이 나온다.">마우스를 올리면?</a>
 
 ### 새 창/새 탭에서 링크 열기
@@ -392,9 +392,9 @@ table + 머리글(head), 본문(body), 요약(foot)이 합쳐진 태그이다. �
 | _top | 최상위 탭 또는 창. 없으면 현재 탭 또는 창 |
 
 최근 브라우저들은 탭을 사용해서 새로운 창에서 열리지 않고 새로운 탭에서 열릴것이다.
-4가지 속성을 사용해서 네이버 링크를 작성했다.
-*github에서는 target 속성을 막아두어서 기본 a태그의 동작을 수행한다.*<br>
-<a href="https://www.naver.com" target="_blank">_blank</a><br>
-<a href="https://www.naver.com" target="_self">_self</a><br>
-<a href="https://www.naver.com" target="_parent">_parent</a><br>
-<a href="https://www.naver.com" target="_top">_top</a><br>
+4가지 속성을 사용해서 네이버 링크를 작성했다.  
+*github에서는 target 속성을 막아두어서 기본 a태그의 동작을 수행한다.*  
+<a href="https://www.naver.com" target="_blank">_blank</a>  
+<a href="https://www.naver.com" target="_self">_self</a>  
+<a href="https://www.naver.com" target="_parent">_parent</a>  
+<a href="https://www.naver.com" target="_top">_top</a>  
