@@ -31,20 +31,20 @@ html5의 시맨틱 요소로 작성한 소스는 태그만 보고도 어느 부�
 `<div>` 태그를 메인으로 사용하기 보다는 CSS 적용을 위한 용도로 사용하면 좋을 것 같다.
 ```
 <head>
-	<style>
-		#wrapper {
-			width: 100%;
-			border: 1px solid #ddd;
-		}
-	</style>
+  <style>
+    #wrapper {
+      width: 100%;
+      border: 1px solid #ddd;
+    }
+  </style>
 </head>
 <body>
-	<header>...</header>
-	<div id="wrapper">
-		<section>
-			...
-		</section>
-	</div>
+  <header>...</header>
+  <div id="wrapper">
+    <section>
+      ...
+    </section>
+  </div>
 </body>
 ```
 
@@ -67,13 +67,13 @@ html5의 시맨틱 요소로 작성한 소스는 태그만 보고도 어느 부�
 <h1>,<h2>,<h3>,<h4>,<h5>,<h6>
 ```
 `<hn>`태그는 6단계로 나누어져 있고 숫자가 작을수록 글씨 크기가 크다.
-	<h1>H1</h1>`<h1>H1</h1>`
-	<h2>H2</h2>`<h2>H2</h2>`
-	<h3>H3</h3>`<h3>H3</h3>`
-	<h4>H4</h4>`<h4>H4</h4>`
-	<h5>H5</h5>`<h5>H5</h5>`
-	<h6>H6</h6>`<h6>H6</h6>`
-	
+  <h1>H1</h1>`<h1>H1</h1>`
+  <h2>H2</h2>`<h2>H2</h2>`
+  <h3>H3</h3>`<h3>H3</h3>`
+  <h4>H4</h4>`<h4>H4</h4>`
+  <h5>H5</h5>`<h5>H5</h5>`
+  <h6>H6</h6>`<h6>H6</h6>`
+  
 `<hn>`태그는 SEO(**S**earch **E**ngine **O**ptimization, 검색엔진최적화)적용, 사이트 outline를 구성할 때 중요한 요소이다. 글씨 크기만을 위해 높은 숫자(`<h4>`~`<h6>`)를 사용하지 않길 바란다.
 [seo] [구글 seo 검색결과](https://bit.ly/2KULZ79)
 [사이트 outline] [시맨틱한  HTML5 마크업 구조 설계, 어떻게 할까?](https://www.slideshare.net/headvoy/html5-38560624)
@@ -85,15 +85,15 @@ html5의 시맨틱 요소로 작성한 소스는 태그만 보고도 어느 부�
 `<section>` 태그와 `<article>` 태그가 혼동되기도 하는데, `<section>`태그는 주제별로 콘텐츠를 묶을 때 사용한다. `<section>`태그 안에 또 다른 `<section>` 태그를 넣을 수도 있고, 실제 콘텐츠를 담고있는 `<article>` 태그를 넣을 수도 있다.
 ```
 <section>
-	<!-- 영역 구분 -->
-	<section>
-		<!-- 영역 구분 -->
-		<h1></h1> or <header></header>
-		<article>실제 내용</article>
-	</section>
-	<article>실제 내용</article>
-	<h1></h1>
-	<section></section>
+  <!-- 영역 구분 -->
+  <section>
+    <!-- 영역 구분 -->
+    <h1></h1> or <header></header>
+    <article>실제 내용</article>
+  </section>
+  <article>실제 내용</article>
+  <h1></h1>
+  <section></section>
 </section>
 ```
 
