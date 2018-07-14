@@ -392,7 +392,8 @@ table + 머리글(head), 본문(body), 요약(foot)이 합쳐진 태그이다. �
 | _top | 최상위 탭 또는 창. 없으면 현재 탭 또는 창 |
 
 최근 브라우저들은 탭을 사용해서 새로운 창에서 열리지 않고 새로운 탭에서 열릴것이다.
-4가지 속성을 사용해서 네이버 링크를 작성했다.<br>
+4가지 속성을 사용해서 네이버 링크를 작성했다.
+*github에서는 target 속성을 막아두어서 기본 a태그의 동작을 수행한다.*<br>
 <a href="https://www.naver.com" target="_blank">_blank</a><br>
 <a href="https://www.naver.com" target="_self">_self</a><br>
 <a href="https://www.naver.com" target="_parent">_parent</a><br>
