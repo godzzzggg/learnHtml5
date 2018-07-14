@@ -73,10 +73,10 @@ html5의 시맨틱 요소로 작성한 소스는 태그만 보고도 어느 부�
     <h4>H4</h4>`<h4>H4</h4>`
     <h5>H5</h5>`<h5>H5</h5>`
     <h6>H6</h6>`<h6>H6</h6>`
-  
+
 `<hn>`태그는 SEO(**S**earch **E**ngine **O**ptimization, 검색엔진최적화)적용, 사이트 outline를 구성할 때 중요한 요소이다. 글씨 크기만을 위해 높은 숫자(`<h4>`~`<h6>`)를 사용하지 않길 바란다.
 [seo] [구글 seo 검색결과](https://bit.ly/2KULZ79)
-[사이트 outline] [시맨틱한  HTML5 마크업 구조 설계, 어떻게 할까?](https://www.slideshare.net/headvoy/html5-38560624)
+[사이트 outline] [시맨틱한  HTML5 마크업 구조 설계, 어떻게 할까?](https://www.slideshare.net/headvoy/html5-38560624)
 
 ## `<section>` 태그 - 콘텐츠 '영역'
 ```
