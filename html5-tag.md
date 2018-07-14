@@ -374,7 +374,7 @@ table + 머리글(head), 본문(body), 요약(foot)이 합쳐진 태그이다. �
 ...
 ```
 위와 같이 id값을 경로를 설정한 경우 클릭하면 해당 id의 태그 위치로 스크롤을 이동한다.<br>
-<a href="#block태그">block태그로 이동</a>
+<a href="#block태그">block태그 설명으로 이동</a>
 
 ### 툴팁
 `<a href="#" title="설명">...</a>`
