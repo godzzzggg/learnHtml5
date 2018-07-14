@@ -373,13 +373,13 @@ table + 머리글(head), 본문(body), 요약(foot)이 합쳐진 태그이다. �
 <a href="#here">이동</a>
 ...
 ```
-위와 같이 id값을 경로를 설정한 경우 클릭하면 해당 id의 태그 위치로 스크롤을 이동한다.
+위와 같이 id값을 경로를 설정한 경우 클릭하면 해당 id의 태그 위치로 스크롤을 이동한다.<br>
 <a href="#block태그">block태그로 이동</a>
 
 ### 툴팁
 `<a href="#" title="설명">...</a>`
-위와 같이 title 속성을 사용하면 링크에 마우스를 올려두면 나오는 툴팁을 작성할 수 있다.
-<a href="#" title="설명이 나옵니다.">마우스를 올려보세요</a>
+위와 같이 title 속성을 사용하면 링크에 마우스를 올려두면 나오는 툴팁을 작성할 수 있다.<br>
+<a href="#" title="설명이 나온다.">마우스를 올리면?</a>
 
 ### 새 창/새 탭에서 링크 열기
 `<a href="#" target="값">...</a>`
@@ -392,7 +392,8 @@ table + 머리글(head), 본문(body), 요약(foot)이 합쳐진 태그이다. �
 | _top | 최상위 탭 또는 창. 없으면 현재 탭 또는 창 |
 
 최근 브라우저들은 탭을 사용해서 새로운 창에서 열리지 않고 새로운 탭에서 열릴것이다.
-<a href="#" target="_blank">_blank</a>
-<a href="#" target="_self">_self</a>
-<a href="#" target="_parent">_parent</a>
-<a href="#" target="_top">_top</a>
+4가지 속성을 사용해서 네이버 링크를 작성했다.
+<a href="https://www.naver.com" target="_blank">_blank</a><br>
+<a href="https://www.naver.com" target="_self">_self</a><br>
+<a href="https://www.naver.com" target="_parent">_parent</a><br>
+<a href="https://www.naver.com" target="_top">_top</a><br>
